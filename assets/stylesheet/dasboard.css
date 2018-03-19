@@ -1,0 +1,90 @@
+body {
+    background-color: #333333;
+}
+
+.bg-light {
+    background-color: #212121!important;
+}
+
+a.nav-link {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    color: #FDCB51 !important;
+}
+
+li > a > .material-icons {
+    color: #FDCB51;
+}
+
+input[type=text] {
+    border-radius: 20px;
+}
+
+/*
+.content-body {
+    width
+}*/
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.cover {
+    background-image: url('../img/carousel1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 1000px;
+    height: 450px;
+    -webkit-border-radius: 10px;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.avi {
+    margin-top: 70px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box {
+    position: relative;
+    left: -10%;
+    /*color: #000;
+    border: 1px solid #fff;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;*/
+}
+
+#escape-post{
+    background-color: #fff;
+    margin-left: -320px;
+    width: 300px;
+}
+.badge-light {
+    position: relative;
+    color: #212529;
+    background-color: #fff;
+    z-index: -5;
+}
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+ background-image: url('../img/carousel1.jpg');
+    background-repeat: no-repeat;
+}
