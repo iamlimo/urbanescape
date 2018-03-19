@@ -1,0 +1,114 @@
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#image1 {
+    background-image: url(file:///C:/Users/Admin/Desktop/urbanescape2/assets/img/signup_banner.png);
+}
+
+#image2 {
+    background-image: url(file:///C:/Users/Admin/Desktop/urbanescape2/assets/img/signup_banner2.png);
+}
+
+#image3 {
+    background-image: url(file:///C:/Users/Admin/Desktop/urbanescape2/assets/img/signup_banner3.png);
+}
+
+div.fadeMe {
+    opacity: 0.7;
+    filter: alpha(opacity=20);
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: ;
+}
+
+
+/*
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid red;
+    color: #fff;
+    background-color: transparent;
+    width: 100px;
+}*/
+
+.signup {
+    position: absolute;
+    top: 70px;
+    left: 42%;
+    z-index: 10;
+    width: 250px;
+    background: #fff;
+}
+
+form.signupForm {
+    padding: 35px;
+}
+
+button.submit {
+    width: 250px;
+    border-radius: 0px;
+    background-color: #FDCB51;
+    border-color: transparent;
+}
+
+#facebook-sign {
+    padding: 5px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: #007bff;
+    text-align: center;
+    color: #fff;
+}
+
+#facebook-sign > p > a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+div#or {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+input[type=text],
+input[type=password],
+input[type=tel],
+input[type=email] {
+    border: none;
+    border-bottom: 2px solid;
+    padding: 5px;
+}
+
+
+input:focus {
+    outline: none !important;
+}
