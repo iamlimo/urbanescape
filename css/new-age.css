@@ -343,6 +343,9 @@ section.contact {
 h2.section-heading{
     color: #fff;
 }
+div.mx-auto > p{
+    color: #fff;
+}
 section.contact h2 {
     margin-top: 0;
     margin-bottom: 25px;
