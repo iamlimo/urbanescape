@@ -60,8 +60,16 @@ section {
 
 section h2 {
     font-size: 50px;
+    font-color: #fff;
 }
 
+div.col-sm-4 > i{ 
+    color: #fff;
+}
+
+div.col-sm-4 > p{ 
+    color: #fff;
+}
 #mainNav {
     border-color: rgba(34, 34, 34, 0.05);
     background-color: white;
@@ -411,7 +419,7 @@ footer ul li a.active {
 .bg-primary {
     background: #fdcc52;
     background: -webkit-linear-gradient(#fdcc52, #fdc539);
-    background: linear-gradient(#fdcc52, #fdc539);
+    background: linear-gradient(#ff8c00, #524c3d);
 }
 
 .text-primary {
